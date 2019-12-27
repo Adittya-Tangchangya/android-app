@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         mAuth = FirebaseAuth.getInstance();
 
         progressDialog = new ProgressDialog(this);
@@ -41,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         mSignUpBtn = findViewById(R.id.signUpBtn);
 
 
-        edtEmail = findViewById(R.id.edtEmail);
-        edtPass = findViewById(R.id.edtPass);
+        //edtEmail = findViewById(R.id.edtEmail);
+        //edtPass = findViewById(R.id.edtPass);
 
         //handle login btn click
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
